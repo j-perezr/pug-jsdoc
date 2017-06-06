@@ -1,0 +1,13 @@
+//- @pugdoc
+    @function my-mixin
+    @param  {Object}    params                                  Parameters for the mixin
+    @param  {String}    params.someParam                        Some parameter
+    @example
+    +my-mixin({
+        someParam:"someValue",
+        someOptionalParam:"someValue"
+    })
+    @see my-second-mixin
+    @requires my-second-mixin
+mixin my-mixin(params)
+    p :)

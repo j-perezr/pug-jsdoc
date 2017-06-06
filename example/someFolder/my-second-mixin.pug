@@ -1,0 +1,14 @@
+//- @pugdoc
+    @function my-second-mixin
+    @param  {Object}    params                                  Parameters for the mixin
+    @param  {String}    params.someParam                        Some parameter
+    @param  {String}    [params.someOptionalParam]              Some optional parameter
+    @param  {String}    [params.someDefaultParam="value"]       Some optional parameter with default value
+    @example
+    +my-second-mixin({
+        someParam:"someValue",
+        someOptionalParam:"someValue"
+    })
+    @see {@link www.google.es|Google}
+mixin my-second-mixin(params)
+    p :)

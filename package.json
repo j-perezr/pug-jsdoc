@@ -1,0 +1,24 @@
+{
+  "name": "pug-jsdoc",
+  "version": "1.0.0",
+  "description": "Generate a html api for pug files with jsdoc",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "jsdoc": "^3.4.3",
+    "jsdoc-api": "^3.0.0",
+    "map-stream": "0.0.7",
+    "vinyl-fs": "^2.4.4"
+  },
+  "devDependencies": {
+    "@types/vinyl": "^2.0.0",
+    "@types/vinyl-fs": "^2.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
